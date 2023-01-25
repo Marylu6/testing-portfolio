@@ -1,0 +1,469 @@
+/*
+to do list:
+make website resposive
+
+projects-- need to create space on the bottom
+contact-- not sure if i can shrink it but will try if not replace it
+uploaded in github
+
+trending colors 
+root
+light green---#606c38
+dark green---#283618
+light cream---#fefae0
+cream---#dda15e
+light brown---#bc6c25
+
+
+
+
+previus colors:
+bg---#3f3d3c
+2bg---#b66176
+3bg---#eb89a5
+*/
+
+
+
+
+body {
+    background-color: #283618;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    color: #fefae0;
+    outline: none;
+}
+
+
+.mainBox {
+
+    background-color: #bc6c25;
+    border-radius: 10px 10px 10px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin: 70px;
+
+
+}
+
+#navigation,
+.projectBox,
+.aboutBox,
+.skillBox,
+#contact,
+.mediaBox {
+
+    background-color: #dda15e;
+
+}
+
+.projectBox,
+.aboutBox,
+.skillBox,
+#contact,
+.mediaBox {
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+
+/*nav edits*/
+#topBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navigation {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    padding-left: -600px;
+    padding-bottom: -400px;
+    align-items: center;
+    border-bottom: #bc6c25 5px solid;
+
+
+}
+
+#but1 {
+    font-size: 1.6rem;
+    text-shadow: 1px 1px #302f30;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    color: #fefae0;
+    background-color: #bc6c25;
+    margin-top: -10px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: -38px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    border: none;
+    transition: background-color 0.8s;
+}
+
+
+
+#conForm {
+    font-size: 1.6rem;
+    text-shadow: 1px 1px #302f30;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    color: #fefae0;
+    background-color: #bc6c25;
+    margin-top: -10px;
+    margin-left: 400px;
+    margin-bottom: -38px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    transition: background-color 0.8s;
+
+}
+
+#but3 {
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 1px 1px #302f30;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    color: #fefae0;
+    background-color: #dda15e;
+    padding: 10px;
+    margin: 0;
+    transition: background-color 0.8s;
+}
+
+
+#but1:hover {
+    background-color: #606c38;
+    color: #fefae0;
+}
+
+#conForm:hover {
+    background-color: #606c38;
+    color: #fefae0;
+
+}
+
+
+#but3:hover {
+    background-color: #606c38;
+    color: #fefae0;
+}
+
+#but1:focus,
+#but1:active {
+    background-color: #283618;
+    transition: none;
+}
+
+#conForm:focus,
+#conForm:active {
+    background-color: #283618;
+    transition: none;
+}
+
+#but3:focus,
+#but3:active {
+    background-color: #283618;
+    transition: none;
+}
+
+
+#innerBox {
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+    border: solid #bc6c25 15px;
+    margin-right: 0;
+    margin-left: 330px;
+    padding: 0;
+}
+
+
+
+h1 {
+    text-shadow: 2px 2px #302f30;
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #dda15e;
+    margin-top: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}
+
+#secondTitle {
+    text-shadow: 2px 2px #302f30;
+    background-color: #dda15e;
+    font-family: 'Titan One', cursive;
+    font-size: 22px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    padding-top: 0;
+    padding-bottom: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*passing nav edits*/
+
+
+h2 {
+    text-shadow: 2px 1px #302f30;
+    text-decoration: underline;
+    font-family: 'Titan One', cursive;
+    font-size: 33px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding-left: 40px;
+
+}
+
+
+.projectBox {
+
+    padding-top: 80px;
+
+}
+
+.projectInnerBox {
+
+
+    margin-left: 170px;
+
+}
+
+
+
+.card {
+    border-radius: 3%;
+
+    background-color: #bc6c25;
+    padding-bottom: 10px;
+}
+
+.cardImg {
+
+    margin-top: 10px;
+}
+
+.card-title {
+
+    border-bottom: solid #dda15e 5px;
+
+}
+
+
+
+.card-text {
+    background-color: #dda15e;
+    border-radius: 10px 10px 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+
+}
+
+.aboutInnerBox {
+    margin: 20px;
+    padding-top: 80px;
+
+}
+
+.containAboutBox {
+
+    margin: 0 130px;
+
+
+}
+
+p {
+    text-align: center;
+    background-color: #bc6c25;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+.selfPort {
+    width: 90%;
+    border: solid #bc6c25 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+
+.skillBox {
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 490px;
+
+}
+
+
+#pieChart {
+
+
+    margin-left: 320px;
+    margin-top: 20px;
+    padding: 0;
+    border: solid #bc6c25 10px;
+    border-radius: 10px 10px 10px;
+
+
+
+}
+
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contactBox {
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+#formy {
+    border-radius: 10px 10px 10px 10px;
+    border: #bc6c25 solid 9px;
+    background: #dda15e;
+    margin: 88px;
+    padding: 50px;
+    font-size: 22px;
+
+}
+
+
+
+input,
+textarea {
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    border: #bc6c25 solid 5px;
+    outline: none;
+    margin: 7px;
+    padding: 8px;
+}
+
+#submitButton {
+
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 1px 1px #302f30;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    color: #fefae0;
+    background-color: #bc6c25;
+    padding: 20px;
+    margin: 0;
+
+
+}
+
+
+
+#submitButton:hover {
+    background-color: #606c38;
+    color: #fefae0;
+}
+
+
+#submitButton:focus,
+#submitButton:active {
+    background-color: #283618;
+    transition: none;
+}
+
+
+.socialBox {
+
+    margin: 0;
+    padding: 1rem;
+    background-color: #dda15e;
+    border: solid 5px #bc6c25;
+    border-radius: 30px;
+
+}
+
+.footerBtn {
+    font-size: 2rem;
+
+    color: #fefae0;
+    margin: 0;
+    padding: 10px 10px;
+    border: 20px solid #dda15e;
+    border-radius: 40px;
+    background-color: #bc6c25;
+}
+
+#link {
+    text-decoration: none;
+    color: #fefae0;
+}
+
+.footerBtn:hover {
+
+    background-color: #606c38;
+    color: #fefae0;
+}
+
+
+.footerBtn:focus,
+.footerBtn:active {
+
+    background-color: #283618;
+    transition: none;
+}
+
+/*below is the breakpoints to basic resposive web 
+
+@media (mid-width: 380px),(max-width: 430px){
+
+    h1{
+        font-size: 3em;
+        color: crimson;
+    }
+    nav,ul{
+
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+*/
